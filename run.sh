@@ -4,9 +4,9 @@ rm -rf /etc/cron.d/cron
 cd /usr/local/
 mkdir auto
 cd auto
-curl -OL https://4ghatde.me/auto-cache/cron.sh
+wget https://raw.githubusercontent.com/f1kizzvn004/cache/main/cron.sh
 chmod +x cron.sh
 cd /etc/cron.d
-curl -OL https://4ghatde.me/auto-cache/cron
+wget https://raw.githubusercontent.com/f1kizzvn004/cache/main/cron
 cd /root/
 clear && echo -e "   Done !"
